@@ -7,8 +7,8 @@ COPY package.json /usr/src/app/
 COPY index.js /usr/src/app/
 COPY app.json /usr/src/app/
 RUN npm install
-RUN npm start
-RUN npm build
+#RUN npm start
+#RUN npm build
 # Bundle app source
 COPY . /usr/src/app
 EXPOSE 8083
