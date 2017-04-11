@@ -12,5 +12,5 @@ RUN npm install
 # Bundle app source
 COPY . /usr/src/app
 EXPOSE 8083
-CMD [ 'npm', 'start', 'build' ]
+CMD [ 'npm', 'build' ]
 
